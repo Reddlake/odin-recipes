@@ -1,0 +1,38 @@
+* {
+    text-align: center;
+    font-size: 16px;
+}
+body {
+    background:linear-gradient(crimson,skyblue);
+    background-size:cover;
+    background-repeat:no-repeat;
+    background-attachment: fixed;
+}
+h1 {
+    background-color: hsla(240, 58%, 20%, 0.637);
+    color:hsl(0, 0%, 0%);
+    font-size: 3em;
+    padding: 1em 1em 1em;
+    border: 0.25em;
+    border-style: solid;
+    border-color:green;
+    border-radius: 25% 75% 10% 10%;
+}
+li {
+    list-style:none;
+}
+a {
+    color:hsl(0, 0%, 0%);
+    font-size: 1.3em;
+}
+a:hover {
+    color:hsl(177, 100%, 50%);
+    transition-duration: 1s;
+    font-size:2em;
+}
+.lasagna, .donuts, .toast {
+    background-color:purple;
+    display:inline-block;
+    border-radius: .75em;
+}
+    
