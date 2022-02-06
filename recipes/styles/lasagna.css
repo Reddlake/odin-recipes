@@ -45,6 +45,8 @@ a {
 }
 a:hover {
     color:hsl(177, 100%, 50%);
-    transition-duration: 1s;
+    transition-duration:1s;
     font-size:2em;
+    border-style: dashed;
+    border-color:white;
 }

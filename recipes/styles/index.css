@@ -33,10 +33,10 @@ a:hover {
     color:hsl(177, 100%, 50%);
     transition-duration: 1s;
     font-size:2em;
+    border-style: dashed;
+    border-color:white;
 }
 .lasagna, .donuts, .toast {
-    background-color:hsl(200, 100%, 25%);
-    display:inline-block;
-    border-radius: .75em;
+    display:block;
 }
     
