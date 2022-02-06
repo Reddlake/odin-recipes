@@ -6,7 +6,7 @@ html {
     scroll-behavior: smooth;
 }
 body {
-    background:linear-gradient(rgb(8, 3, 4),skyblue);
+    background:linear-gradient(rgb(8, 3, 4),hsl(197, 71%, 73%));
     background-size:cover;
     background-repeat:no-repeat;
     background-attachment: fixed;
@@ -20,6 +20,7 @@ h1 {
     border-style: solid;
     border-color:hsl(240, 75%, 25%);
     border-radius: 25% 25% 15% 15%;
+}
 }
 li {
     list-style:none;
