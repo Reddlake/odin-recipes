@@ -2,21 +2,24 @@
     text-align: center;
     font-size: 16px;
 }
+html {
+    scroll-behavior: smooth;
+}
 body {
-    background:linear-gradient(crimson,skyblue);
+    background:linear-gradient(rgb(8, 3, 4),skyblue);
     background-size:cover;
     background-repeat:no-repeat;
     background-attachment: fixed;
 }
 h1 {
     background-color: hsla(240, 58%, 20%, 0.637);
-    color:hsl(0, 0%, 0%);
+    color:rgb(0, 0, 0);
     font-size: 3em;
     padding: 1em 1em 1em;
     border: 0.25em;
     border-style: solid;
-    border-color:green;
-    border-radius: 25% 75% 10% 10%;
+    border-color:hsl(240, 75%, 25%);
+    border-radius: 25% 25% 15% 15%;
 }
 li {
     list-style:none;
@@ -31,7 +34,7 @@ a:hover {
     font-size:2em;
 }
 .lasagna, .donuts, .toast {
-    background-color:purple;
+    background-color:hsl(200, 100%, 25%);
     display:inline-block;
     border-radius: .75em;
 }
