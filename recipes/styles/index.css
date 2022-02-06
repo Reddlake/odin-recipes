@@ -6,33 +6,29 @@ html {
     scroll-behavior: smooth;
 }
 body {
-    background:linear-gradient(rgb(8, 3, 4),hsl(197, 71%, 73%));
+    background:linear-gradient(rgb(8, 3, 4),hsl(197, 67%, 35%));
     background-size:cover;
     background-repeat:no-repeat;
     background-attachment: fixed;
 }
 h1 {
-    background-color: hsla(240, 58%, 20%, 0.637);
-    color:rgb(0, 0, 0);
-    font-size: 3em;
+    color:#4D7D19;
+    font-size: 5em;
     padding: 1em 1em 1em;
-    border: 0.25em;
-    border-style: solid;
-    border-color:hsl(240, 75%, 25%);
-    border-radius: 25% 25% 15% 15%;
-}
+    text-decoration: line-through;
 }
 li {
     list-style:none;
 }
 a {
-    color:hsl(0, 0%, 0%);
-    font-size: 1.3em;
+    color:#4D7D19;
+    font-size: 2em;
+    font-weight: 700;
 }
 a:hover {
     color:hsl(177, 100%, 50%);
     transition-duration: 1s;
-    font-size:2em;
+    font-size:4em;
     border-style: dashed;
     border-color:white;
 }
