@@ -6,47 +6,46 @@ html {
     scroll-behavior: smooth;
 }
 body {
-    background:linear-gradient(rgb(8, 3, 4),hsl(197, 71%, 73%));
+    background:linear-gradient(rgb(8,3,4),hsl(197, 68%, 25%),rgb(8, 3, 4));
     background-size:cover;
     background-repeat:no-repeat;
     background-attachment: fixed;
 }
 h1 {
-    background-color: hsla(240, 58%, 20%, 0.637);
-    color:rgb(0, 0, 0);
-    font-size: 3em;
+    color:#4D7D19;
+    font-size: 5em;
     padding: 1em 1em 1em;
-    border: 0.25em;
-    border-style: solid;
-    border-color:hsl(240, 75%, 25%);
-    border-radius: 25% 25% 15% 15%;
 }
 h2 {
+    color:#4D7D19;
     font-size:2em;
     padding: 1em 1em 1em;
 }
 h3 {
-    font-size: 1.5em;
+    color: #4D7D19;
+    font-size: 1.75em;
     text-decoration:overline underline;
-    text-decoration-color: hsl(240, 75%, 25%);
+    text-decoration-color: hsl(0, 0%, 100%);
 }
 p {
+    color: #4D7D19;
     font-size:1.5em;
     padding: 0.5rem 1em 1em;
 }
 ul > li, ol > li {
+    color: #4D7D19;
     list-style-position: inside;
     font-size:1.2em;
     line-height: 2em;
 }
 a {
-    color:hsl(0, 0%, 0%);
-    font-size: 1.3em;
+    color:#4D7D19;
+    font-size: 2em;
 }
 a:hover {
     color:hsl(177, 100%, 50%);
     transition-duration:1s;
-    font-size:2em;
+    font-size:4em;
     border-style: dashed;
     border-color:white;
 }

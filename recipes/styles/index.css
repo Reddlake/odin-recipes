@@ -6,7 +6,7 @@ html {
     scroll-behavior: smooth;
 }
 body {
-    background:linear-gradient(rgb(8, 3, 4),hsl(197, 67%, 35%));
+    background:linear-gradient(rgb(8, 3, 4),hsl(197, 68%, 25%),rgb(8, 3, 4));
     background-size:cover;
     background-repeat:no-repeat;
     background-attachment: fixed;
